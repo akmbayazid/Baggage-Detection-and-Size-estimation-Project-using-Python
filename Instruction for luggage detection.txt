@@ -1,0 +1,5 @@
+Need a Google account to access Google Colab.Go to Google Colab and create a new notebook. Install ultralytics and import it.  Then you have to install roboflow and import it. After that, you need an actual API key for roboflow. Then you have to define workspace and version. Now download the dataset that was processed in roboflow. In roboflow, select objection detection option and choose YOLOv8 for downloading the data.
+Now train the data for YOLOv8n considering 100 epochs and validate the model. It will start training process. After that, perform the metrics evaluation for normalized confusion matrix. Next, import locale and use google colab for files.
+
+Now size estimation work need to be done with actual paths for your image and model weights. Here, you need to import cv2 and cv_imshow. After this, train the YOLOv8m and evaluate the performance
+
